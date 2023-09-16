@@ -10,6 +10,12 @@ public class Pattern {
 			{
 			System.out.print("*");
 			}
+			for(i=1;i<n;i++)
+		{
+			for(int j=0;j<i;j++)
+			{
+			System.out.print("*");
+			}
 		System.out.println();
 		}
 	}
